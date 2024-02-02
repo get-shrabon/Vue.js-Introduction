@@ -2,7 +2,7 @@
 import { RouterLink } from "vue-router";
 </script>
 <template>
-  <header class="py-2 bg-slate-800">
+  <header class="py-2 bg-slate-700">
     <div class="container mx-auto">
       <div class="flex items-center justify-between">
         <div>
@@ -33,5 +33,7 @@ import { RouterLink } from "vue-router";
 <style scoped>
 .router-link-active {
   background: rgba(255, 99, 71, 0.295);
+  font-weight: 700;
+  color: white;
 }
 </style>

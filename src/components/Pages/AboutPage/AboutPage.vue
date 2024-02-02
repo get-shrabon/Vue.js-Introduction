@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import About from "../../SharedCompo/About.vue"
+import Blogs from "../../SharedCompo/Blogs.vue"
+</script>
 
 <template>
-  <h2 class="text-4xl fnt-bold text-center py-20">This is About Page</h2>
+  <About></About>
+  <Blogs></Blogs>
 </template>

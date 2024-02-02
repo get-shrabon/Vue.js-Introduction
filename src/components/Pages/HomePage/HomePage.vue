@@ -1,5 +1,15 @@
 <script setup>
+import Banner from './Banner.vue';
+import Services from './Services.vue';
+import Cards from "../../SharedCompo/Cards.vue"
+import About from "../../SharedCompo/About.vue"
+import Blogs from "../../SharedCompo/Blogs.vue"
+
 </script>
 <template>
-    <h2 class="text-4xl fnt-bold text-center py-20">This is Home Page</h2>
+    <Banner></Banner>
+    <About></About>
+    <Services></Services>
+    <Blogs></Blogs>
+    <Cards></Cards>
 </template> 
